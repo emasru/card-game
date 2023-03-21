@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d56e5c-a7b4-4cc3-bd31-5d90968dce37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/ntnu/idatt2001/oblig3/cardgame/DeckOfCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/square.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/ntnu/idatt2001/oblig3/cardgame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/ntnu/idatt2001/oblig3/cardgame/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/ntnu/idatt2001/oblig3/cardgame/PlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/ntnu/idatt2001/oblig3/cardgame/PlayingCard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +135,7 @@
       <workItem from="1679325628225" duration="818000" />
       <workItem from="1679326528386" duration="1653000" />
       <workItem from="1679328255962" duration="3333000" />
-      <workItem from="1679411052161" duration="5742000" />
+      <workItem from="1679411052161" duration="11864000" />
     </task>
     <servers />
   </component>
