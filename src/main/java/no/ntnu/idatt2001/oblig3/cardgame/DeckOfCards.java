@@ -1,7 +1,6 @@
 package no.ntnu.idatt2001.oblig3.cardgame;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 /**
@@ -31,6 +30,7 @@ public class DeckOfCards {
 
     /**
      * Deal a random hand consisting of n cards from the deck, without removing the cards from the deck.
+     * The deck is automatically shuffled again.
      *
      * @param n The number of cards to deal
      * @return An ArrayList of PlayingCard objects

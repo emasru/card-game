@@ -3,26 +3,18 @@ package no.ntnu.idatt2001.oblig3.cardgame;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.geometry.Pos;
-import javafx.scene.Node;
-import javafx.scene.Parent;
+
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
-import java.io.File;
 import javafx.scene.text.Text;
 import javafx.scene.text.Font;
-import javafx.scene.paint.Color;
 import javafx.geometry.Insets;
 
-
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Main extends Application {
     public static void main(String[] args) {
@@ -105,13 +97,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        FlowPane rootPane = new FlowPane();
+
         HBox cardBox = new HBox();
         VBox btnBox = new VBox();
         cardBox.setPadding(new Insets(5));
         btnBox.setPadding(new Insets(25));
-
-        FlowPane rootPane = new FlowPane();
-        rootPane.setPadding(new Insets(25));
 
         FlowPane infoPane = new FlowPane();
         infoPane.setPadding(new Insets(25));
@@ -166,6 +157,7 @@ public class Main extends Application {
 
         btnBox.getChildren().add(dealBtn);
         btnBox.getChildren().add(checkBtn);
+        btnBox.setSpacing(25);
         rootPane.getChildren().add(btnBox);
 
         rootPane.getChildren().add(infoPane);

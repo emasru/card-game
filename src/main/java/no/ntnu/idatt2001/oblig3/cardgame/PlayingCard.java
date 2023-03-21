@@ -8,7 +8,6 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -78,7 +77,7 @@ public class PlayingCard {
     /**
      * Returns the image of the card as a StackPane object. Size is set to 140x140 pixels.
      *
-     * @return the image of the card as a StackPane object
+     * @return The image of the card as a StackPane object
      */
     public StackPane getCardImage() {
         StackPane pane = new StackPane();
